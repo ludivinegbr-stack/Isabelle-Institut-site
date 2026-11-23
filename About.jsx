@@ -11,8 +11,9 @@ const About = () => {
                     </div>
 
                     <div className="about-visuals">
-                        <img src="/circle_mask.png" alt="Soin visage" className="circle-img img-1" />
-                        <img src="/circle_waxing.png" alt="Épilation" className="circle-img img-2" />
+<img src={`${import.meta.env.BASE_URL}circle_mask.png`} alt="Soin visage" className="circle-img img-1" />
+
+<img src={`${import.meta.env.BASE_URL}circle_waxing.png`} alt="Épilation" className="circle-img img-2" />
                     </div>
 
                     <div className="about-text" style={{ maxWidth: '700px', marginTop: 'var(--spacing-sm)' }}>
