@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
     return (
         <section className="hero hero-centered">
-            <img src="/hero.png" alt="Institut de beauté" className="hero-bg" />
+            <img src={`${import.meta.env.BASE_URL}hero.png`} alt="Institut de beauté" className="hero-bg" />
             <div className="hero-overlay-dark" style={{ background: 'rgba(0,0,0,0.2)' }}></div>
             <div className="container">
                 <div className="hero-content" style={{ margin: '0 auto', textAlign: 'center', maxWidth: '1000px' }}>
